@@ -1,0 +1,38 @@
+// main: ../style.less
+
+.galery__inner {
+  
+  text-transform: uppercase;
+  background: linear-gradient(45deg, #D4AF37 49%, @gray 31%, @black );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: gold;
+  display: table;
+  margin: 20px auto;
+    
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 5rem;
+    font-weight: 700;
+    margin-bottom: 3.3rem;
+    
+    @media @tablet {
+     font-size: 2.5rem;
+    }
+}
+
+.galery__photo {
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    text-align: center;
+}
+
+.galery__content {
+    width: 33.33333%;
+    
+    @media @tablet {
+        width: 100%;
+    }
+}
